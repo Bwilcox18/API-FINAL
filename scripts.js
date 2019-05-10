@@ -24,7 +24,7 @@ request.onload = function () {
       h1.textContent = critter.animal_type;
 
       const p = document.createElement('p');
-      p.textContent = `Name: ${critter.animal_name} - Color:${critter.animal_color}`;
+      p.textContent = `Name: ${critter.animal_name} - Color: ${critter.animal_color}`;
 	  p.setAttribute('class', 'text-muted');
 
       container.appendChild(card);
